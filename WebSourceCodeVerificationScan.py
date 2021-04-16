@@ -57,7 +57,7 @@ if __name__ == '__main__':
 /___/_/ /_/\__,_/\____/\__, /\____/_/ /_/\__, / /___/_/   
                       /____/            /____/   
     Welcome to Web CMS Source Code Verification Scan
-    Version:1.0 Author:zha0gongz1@Ó°
+    Version:1.0 Author:zha0gongz1@影
     ''')
     start = time.time()
     try:
