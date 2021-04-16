@@ -48,7 +48,6 @@ if __name__ == '__main__':
     parser = OptionParser('python CMSFloderScanner.py -u <Target URL> -f <CMS Source code folder> ]')
     parser.add_option('-u', '--url', dest='url', type='string', help='target url for scan')
     parser.add_option('-f', '--file', dest='folder_name', type='string', help='dictionary filename')
-    parser.add_option('-t', '--thread', dest='count', type='int', default=10, help='scan thread count')
     (options, args) = parser.parse_args()
     print('''
         __          ____                               ___
@@ -58,7 +57,7 @@ if __name__ == '__main__':
 /___/_/ /_/\__,_/\____/\__, /\____/_/ /_/\__, / /___/_/   
                       /____/            /____/   
     Welcome to Web CMS Source Code Verification Scan
-    Version:1.0 Author:zha0gongz1@Ӱ
+    Version:1.0 Author:zha0gongz1@Ó°
     ''')
     start = time.time()
     try:
@@ -77,7 +76,7 @@ if __name__ == '__main__':
     usedtime = int(end - start)
     info = '''
     ---------- :) ----------
-    The scan time��%f s
+    The scan time£º%f s
     ---------- end --------
     ''' % (usedtime)
     print(info)
